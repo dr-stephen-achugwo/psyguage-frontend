@@ -1,0 +1,72 @@
+/* Background for the entire game section */
+.missing-bg {
+    background: linear-gradient(to right, #e0f7fa, #fce4ec);
+    padding: 2rem;
+  }
+  
+  /* Card shadow and rounded border */
+  .card {
+    border-radius: 1rem;
+  }
+  
+  /* Game title */
+  .text-primary {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Sequence display */
+  .sequence-box {
+    background-color: #ffffff;
+    border: 2px dashed #0d6efd;
+    border-radius: 12px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Input group enhancements */
+  .input-group .form-control {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .input-group .btn {
+    border-radius: 0 0.5rem 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Game over section */
+  .text-success {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 576px) {
+    .sequence-box {
+      font-size: 1rem;
+      padding: 0.75rem;
+    }
+  
+    .text-primary {
+      font-size: 1.5rem;
+    }
+  }
+  

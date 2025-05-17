@@ -1,0 +1,51 @@
+.arrow-game {
+    height: calc(100vh - 138px); /* exact height */
+    overflow: hidden;            /* hide extra scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+
+
+.arrow-game-title {
+    font-weight: 700;
+    color: #004085;
+}
+
+.arrow-game-arrow {
+    font-size: 3rem;
+    transition: transform 0.2s ease;
+}
+
+.arrow-game-arrow:hover {
+    transform: scale(1.2);
+}
+
+.arrow-game-instructions {
+    font-size: 1rem;
+}
+
+.arrow-game-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1050;
+}
+
+.arrow-game-modal-content {
+    max-width: 90%;
+    width: 400px;
+}
+
+.arrow-mobile-btn {
+    font-size: 1.5rem;
+    border-radius: 50px;
+}

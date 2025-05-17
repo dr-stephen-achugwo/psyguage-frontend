@@ -1,0 +1,218 @@
+/* .container-symbol {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+  }
+  
+  .symbol-game {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .h2-symbolheading {
+    font-weight: 700;
+    color: #004085;
+    margin-bottom: 1rem;
+  }
+  
+  .count-paragraph-symbol {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .symbol-grid-symbol {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin: 1rem 0;
+  }
+  
+  .symbol-symbol {
+    font-size: 2rem;
+  }
+  
+  .input-container-symbol {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .form-control-symbol {
+    flex: 1 1 auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .btn-submit-symbol {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+  
+  .btn-primary-symbol,
+  .btn-secondary-symbol {
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary-symbol {
+    background-color: #007bff;
+  }
+  
+  .btn-secondary-symbol {
+    background-color: #6c757d;
+  }
+  
+  .results-symbolcount {
+    padding: 1rem;
+  }
+  
+
+  @media (max-width: 576px) {
+    .symbol-symbol {
+      font-size: 1.5rem;
+    }
+  
+    .form-control-symbol {
+      width: 100px;
+    }
+  
+    .btn-submit-symbol {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+   */
+
+
+.container-symbol {
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+}
+
+.symbol-game {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.h2-symbolheading {
+    font-weight: 700;
+    color: #004085;
+    margin-bottom: 1rem;
+}
+
+.count-paragraph-symbol {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.symbol-grid-symbol {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin: 1rem 0;
+}
+
+.symbol-symbol {
+    font-size: 2rem;
+}
+
+.input-container-symbol {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-control-symbol {
+    flex: 1 1 auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 120px;
+    text-align: center;
+}
+
+.btn-submit-symbol {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn-primary-symbol,
+.btn-secondary-symbol {
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+}
+
+.btn-primary-symbol {
+    background-color: #007bff;
+}
+
+.btn-secondary-symbol {
+    background-color: #6c757d;
+}
+
+.results-symbolcount {
+    padding: 1rem;
+}
+
+@media (max-width: 576px) {
+    .symbol-symbol {
+        font-size: 1.5rem;
+    }
+
+    .form-control-symbol {
+        width: 100px;
+    }
+
+    .btn-submit-symbol {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
